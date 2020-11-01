@@ -12,3 +12,14 @@ article{
 overflow: auto;
 }
 
+aside{
+	float: right;
+	align : fixed;
+}
+
+footer{
+	color : #fff;
+	text-align : center;
+	background: #000;	
+	clear : both;
+}
