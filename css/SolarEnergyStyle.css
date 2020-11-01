@@ -1,5 +1,13 @@
-#fig1, #pic1	{
-			width : 320px;
-			height : 240px;
-			float : right;
-			}
+#fig1, #pic1, #fig2, #pic2	{
+width : 320px;
+height : 240px;
+float : right;
+}
+
+#fig1, #fig2 	{
+clear: both;
+}
+	
+article			{
+overflow: auto;
+}
