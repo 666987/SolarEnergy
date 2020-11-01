@@ -1,13 +1,14 @@
-#fig1, #pic1, #fig2, #pic2	{
+#fig1, #pic1, #fig2, #pic2, #fig3, #pic3	{
 width : 320px;
 height : 240px;
 float : right;
 }
 
-#fig1, #fig2 	{
+#fig1, #fig2, #fig3 	{
 clear: both;
 }
 	
-article			{
+article{
 overflow: auto;
 }
+
