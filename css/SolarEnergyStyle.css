@@ -15,14 +15,27 @@ height : 320px;
 float : center;
 }
 
+nav {	
+	text-align : center;
+}
 
 
+ul {
+	list-style-type : none;	
+}
+
+#LiLink1, #LiLink2, #LiLink3 {
+	float : center;
+	padding : 9px;
+	text-align : center;
+	display : inline;
+	background-color : lightgray;
+}
 
 section{
-
-
-
 }
+
+
 
 article{
 width : 80%;
@@ -32,6 +45,12 @@ clear : both;
 
 h1 {
 	background-color : lightgray;
+	text-align: center;
+}
+
+h2 {
+	background-color : lightgray;
+	text-align: center;
 }
 
 aside{
