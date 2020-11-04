@@ -2,24 +2,51 @@
 width : 320px;
 height : 240px;
 float : right;
+text-align : center;
 }
 
 #fig1, #fig2, #fig3 	{
 clear: both;
 }
-	
+
+video {
+width : 100%; 
+height : 320px;
+float : center;
+}
+
+
+
+
+section{
+
+
+
+}
+
 article{
-overflow: auto;
+width : 80%;
+clear : both;
+
+}
+
+h1 {
+	background-color : lightgray;
 }
 
 aside{
 	float: right;
-	align : fixed;
+	width: 15%;
+	display : inline;
 }
 
-footer{
+#Footer1 {
 	color : #fff;
 	text-align : center;
 	background: #000;	
 	clear : both;
+}
+
+#link1 {
+	text-align: bottom;
 }
