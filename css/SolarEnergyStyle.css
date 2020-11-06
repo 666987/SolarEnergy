@@ -1,71 +1,123 @@
-#fig1, #pic1, #fig2, #pic2, #fig3, #pic3	{
-width : 320px;
-height : 240px;
-float : right;
-text-align : center;
-}
+/*mobile*/
+@media screen and (max-width: 480px) {
+	#FlexBody {
+		display : flex;
+		flex-direction: column;
+	}
+	
+	#FlexHeader {
+		display : flex;
+		flex-direction: column;
+	}
+	
+	#Logo {
+		display : none;
+	}
+	
+	#hamburger:checked ~ ul{
+        display: block;
+    }
+	
+	#hamburger{
+        display: none;
+    }
 
-#fig1, #fig2, #fig3 	{
-clear: both;
-}
+    #burgericon{
+        position: absolute;
+        top: 35px;
+        right: 45px;
+        transform: scale(2);
+    }
 
-video {
-width : 100%; 
-height : 320px;
-float : center;
-}
+    ul{
+        display: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-bottom: 1px #000000 solid;
+        border-top: 1px #000000 solid;
+    }
 
-nav {	
-	text-align : center;
-}
+    ul a:link{
+        color:black;
+        text-decoration: none;
+    }
 
+    ul a:visited{
+        color:black;
+        text-decoration: none;
+    }
 
-ul {
-	list-style-type : none;	
-}
+    ul a:hover{
+        color:black;
+        text-decoration: none;
+    }
 
-#LiLink1, #LiLink2, #LiLink3 {
-	float : center;
-	padding : 9px;
-	text-align : center;
-	display : inline;
-	background-color : lightgray;
-}
-
-section{
-}
-
-
-
-article{
-width : 80%;
-clear : both;
-
-}
-
-h1 {
-	background-color : lightgray;
-	text-align: center;
-}
-
-h2 {
-	background-color : lightgray;
-	text-align: center;
-}
-
-aside{
-	float: right;
-	width: 15%;
-	display : inline;
-}
-
-#Footer1 {
-	color : #fff;
-	text-align : center;
-	background: #000;	
-	clear : both;
-}
-
-#link1 {
-	text-align: bottom;
-}
+    ul a:active{
+        color:black;
+        text-decoration: none;
+    }
+	
+	video{ 
+		display : none;
+	}
+	
+	#OlAside {
+		border-bottom : 1px solid;
+		padding-bottom : 5px;
+	}
+	
+	article {
+		display : flex;
+		flex-direction: column;
+	}
+	
+	#FlexSec1 {
+		order : 2;
+		border-bottom : 1px solid;
+		padding-bottom : 5px;
+	}
+	
+	#FlexSec2  {
+		order : 1;
+		border-bottom : 1px solid;
+		padding-bottom : 5px;
+	}
+	
+	#FlexSec3 {
+		order : 0;
+		border-bottom : 1px solid;
+		padding-bottom : 5px;
+	}
+	
+	footer {		
+		order : 3;
+	}
+	
+	#Footer1 {
+		padding-top : 60px;
+	}
+	
+	#Footer2{
+        position: fixed;
+        bottom: -14px;
+        right: 0;
+        width: 50%;
+        height: 10%;
+        padding-left: 5px;
+        z-index: 9999;
+        color: #fff;
+        background-color: #FA0;
+        opacity: 0.5;
+    } 
+	
+	img {
+		width : 100%;
+		height : auto;
+		float : bottom;
+	}
+	
+	
+/*tablet*/
+@media screen and (min-width: 481px) and (max-width: 1179px) {}
+/*desktop*/
+@media screen and (min-width: 1280px) {}
