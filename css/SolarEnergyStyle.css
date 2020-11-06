@@ -14,6 +14,15 @@
 		display : none;
 	}
 	
+	#VidFig {
+		display : none;
+	}
+	
+	#H2Head {
+		border-bottom : 1px solid;
+		padding-bottom : 5px;
+	}
+	
 	#hamburger:checked ~ ul{
         display: block;
     }
@@ -113,11 +122,221 @@
 	img {
 		width : 100%;
 		height : auto;
-		float : bottom;
 	}
 	
+}
 	
 /*tablet*/
-@media screen and (min-width: 481px) and (max-width: 1179px) {}
+@media screen and (min-width: 481px) and (max-width: 1179px) {
+	#FlexBody {
+		display : flex;
+		flex-direction: column;
+	}
+	
+	#FlexHeader {
+		display : flex;
+		flex-direction: column;
+	}
+	
+	#Logo {
+		width : 55%;
+		height : 55%;
+	}
+		
+	#H2Head {
+		border-bottom : 1px solid;
+		padding-bottom : 5px;
+	}
+	
+	#burgericon, #hamburger {
+		display : none;
+	}
+	
+	#UlNav {
+		display : flex;
+	}
+	
+	#LiLink1, #LiLink2, #LiLink3 {
+		padding-right : 85px;
+	}
+	
+	video{
+		width : 100%;
+		height : auto;
+	}
+	
+	#pic1, #pic2, #pic3 {
+		width : 20%;
+		height : auto;
+		display : flex;
+		align-items: left;
+		justify-content: left;	
+		clear : both;
+		flex-direction: column;
+	}
+	
+	#FlexSec1 {
+		order : 2;
+		border-bottom : 1px solid;
+		padding-bottom : 5px;
+	}
+	
+	#FlexSec2  {
+		order : 1;
+		border-bottom : 1px solid;
+		padding-bottom : 5px;
+	}
+	
+	#FlexSec3 {
+		order : 0;
+		border-bottom : 1px solid;
+		padding-bottom : 5px;
+	}
+	
+	p {
+		display : flex;
+		width : 75%;
+		align-items: right;
+		justify-content : right;
+		text-align: left;
+		float : right;
+		flex-direction: column;
+	}
+	
+	#Link1 {
+		display : flex;
+		align-items: right;
+		justify-content : right;
+		flex-direction: column;
+	}
+	
+	footer {
+		order : 3;
+	}
+	
+	#Footer1 {
+		padding-top : 60px;
+	}
+	
+	#Footer2{
+        position: fixed;
+        bottom: -14px;
+        right: 0;
+        width: 50%;
+        height: 10%;
+        padding-left: 5px;
+        z-index: 9999;
+        color: #fff;
+        background-color: #FA0;
+        opacity: 0.5;
+    } 
+	
+	
+}
 /*desktop*/
-@media screen and (min-width: 1280px) {}
+@media screen and (min-width: 1280px) {
+	#FlexBody {
+		display : flex;
+		flex-direction: column;
+	}
+	
+	#FlexHeader {
+		display : flex;
+		flex-direction: column;
+	}
+	
+	#Logo {
+		width : 55%;
+		height : 55%;
+	}
+	
+	#H1Head, #H2Head {
+		display : flex;
+		padding-left : 20px;
+	}
+	
+	#H2Head {
+		border-bottom : 1px solid;
+		padding-bottom : 5px;
+	}
+	
+	#burgericon, #hamburger {
+		display : none;
+	}
+	
+	video{
+		width : 100%;
+		height : auto;
+		order: 0;
+	}
+	
+	#pic1, #pic2, #pic3 {
+		width : 20%;
+		height : auto;
+		display : flex;
+		align-items: left;
+		justify-content: left;	
+		clear : both;
+		flex-direction: column;
+	}
+	
+	#FlexAsi {
+		display : flex;
+		order : 1;
+		flex-direction : column;
+		width : 25%;
+		right : 0;
+	}
+	
+	#FlexSec1 {
+		order : 2;
+		border-bottom : 1px solid;
+		padding-bottom : 5px;
+		width : 75%;
+	}
+	
+	#FlexSec2  {
+		order : 3;
+		border-bottom : 1px solid;
+		padding-bottom : 5px;
+		width : 75%;
+	}
+	
+	#FlexSec3 {
+		order : 4;
+		border-bottom : 1px solid;
+		padding-bottom : 5px;
+		width : 75%;
+	}
+	
+	p {
+		display : flex;
+		width : 75%;
+		align-items: right;
+		justify-content : right;
+		text-align: left;
+		float : right;
+		flex-direction: column;
+	}
+	
+	footer {
+		order : 5;
+	}
+	
+	#Footer1 {
+		padding-top : 60px;
+	}
+	
+	#Footer2{
+        position: fixed;
+        bottom: -14px;
+        right: 0;
+        width: 25%;
+        height: 10%;
+        padding-left: 5px;
+        z-index: 9999;
+        color: #fff;
+        background-color: #FA0;
+        opacity: 0.5;
+    } 
+}
