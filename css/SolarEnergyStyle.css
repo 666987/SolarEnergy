@@ -124,6 +124,9 @@
 		height : auto;
 	}
 	
+/* Eind mobiel */
+
+	
 }
 	
 /*tablet*/
@@ -231,7 +234,7 @@
         opacity: 0.5;
     } 
 	
-	
+/*Eind*/ 
 }
 /*desktop*/
 @media screen and (min-width: 1280px) {
@@ -270,8 +273,18 @@
 		order: 0;
 	}
 	
-	#pic1, #pic2, #pic3 {
-		width : 20%;
+	#pic1 {
+		width : 110%;
+		height : auto;
+		display : flex;
+		align-items: right;
+		justify-content: right;	
+		float : right;
+		clear : both;
+	}
+	
+	#pic2 {
+		width : 100%;
 		height : auto;
 		display : flex;
 		align-items: left;
@@ -280,15 +293,25 @@
 		flex-direction: column;
 	}
 	
+	#pic3 {
+		width : 100%;
+		height : auto;
+		align-items: left;
+		justify-content: left;
+		clear : both;
+		display : flex;
+		flex-direction: column;
+	}
+		
+	
+		
 	#FlexAsi {
 		display : flex;
-		order : 1;
-		flex-direction : column;
-		width : 25%;
-		right : 0;
 	}
 	
 	#FlexSec1 {
+		display : flex;
+		flex-direction : column;
 		order : 2;
 		border-bottom : 1px solid;
 		padding-bottom : 5px;
@@ -296,6 +319,8 @@
 	}
 	
 	#FlexSec2  {
+		display : flex;
+		flex-direction : column;
 		order : 3;
 		border-bottom : 1px solid;
 		padding-bottom : 5px;
@@ -303,21 +328,19 @@
 	}
 	
 	#FlexSec3 {
+		display : flex;
+		flex-direction : column;
 		order : 4;
 		border-bottom : 1px solid;
 		padding-bottom : 5px;
 		width : 75%;
 	}
 	
-	p {
+	#ArtPro1, #ArtPro2, #ArtPro3 {
 		display : flex;
-		width : 75%;
-		align-items: right;
-		justify-content : right;
-		text-align: left;
-		float : right;
-		flex-direction: column;
 	}
+	
+	
 	
 	footer {
 		order : 5;
@@ -339,4 +362,6 @@
         background-color: #FA0;
         opacity: 0.5;
     } 
+	
+/*Eind index*/
 }
