@@ -8,12 +8,25 @@
 			<meta name="author" content="Zico Bakkum"/>
 			<link rel="stylesheet" type="text/css" href="css/SolarEnergyStyle.css"/>
 			<title>I want solar energy </title>
-			<img src= />
-			<h1>InHolland solar energy </h1>
-			<h2>Make the world a better place </h2>
+			
 		</head>
 		<body>
-			<nav>
+		<header>
+		<img id="ConLogo" src="img/LogoSolar.png" title="Logo" alt=""Hier hoort een logo te komen!" />
+			<h1 id="H1Head">Harrems solar energy </h1>
+					<h2 id="H2Head">Make the world a better place! </h2>
+		</header>
+			<nav id="ConNav">
+			<nav id="EuSolar">
+				<label for="hamburger" id="burgericon">
+						&#9776;
+					</label>
+					<input type="checkbox" id="hamburger"/>
+					<label for="hamburger" id="burgericon">
+						&#9776;
+					</label>
+					<input type="checkbox" id="hamburger"/>
+					
 				<ul>
 					<li>
 						<a href="index.html">Home! </a>
@@ -28,44 +41,48 @@
 			</nav>
 			<section>
 				<form action="http://i-want-solar-energy.com/testform.php">
-				<fieldset>
+				<fieldset id="ConField">
 					<legend>Personal info:</legend>
-					<label for="fn" placeholder="true">First Name</label>
-					<input type="text" id="fn" name="firstname" placeholder="Enter your name...">
+					<label for="fn" placeholder="true">First Name:</label>
+					<input type="text" id="fn" name="firstname" placeholder="Enter your name..." required>
 					
-					<label for="em">Email</label>
-					<input type="text" id="em" name="email" placeholder="Enter your email...">
+					<label for="em">Email:</label>
+					<input type="text" id="em" name="email" placeholder="Enter your email..." required>
 					
-					<label for="ms">Message</label>
-					<input type="text" id="ms" name="message" placeholder="Enter your message...">
+					<label for="ms">Message:</label>
+					<input type="text" id="ms" name="message" placeholder="Enter your message..." required>
 					
-					<input type="submit" value="Submit">
+					<input id="Submit" type="submit" value="Submit">
 				</fieldset>
 				
 			</section>
 			
 			<aside>
-					<figure id="fig1">
-								<img id="pic1" src="img/SmartSolar.png" title="SmartSolarMPPT100-50" alt="Picture of SmartSolar MPPT 150-505 charge controller"/>
+					<figure id="ContFig1">
+								<img id="ConPic1" src="img/SmartSolar.png" title="SmartSolarMPPT100-50" alt="Picture of SmartSolar MPPT 150-505 charge controller"/>
 								<footer>
 									<small>&copy victron energy</small>
 								</footer>
 							</figure>
 							
-					<figure id="fig2">
-								<img id="pic2" src="img/Steca_solarix.jpg" title="STECA SOLARIX" alt="Picture of STECA SOLARIX 2525, 4040"/>
+					<figure id="ContFig2">
+								<img id="ConPic2" src="img/Steca_solarix.jpg" title="STECA SOLARIX" alt="Picture of STECA SOLARIX 2525, 4040"/>
 								<footer>
 									<small>&copy Steca</small>
 								</footer>
 							</figure>
 							
-					<figure id="fig3">
-								<img id="pic3" src="img/VictronCyclebattery.png" title="Victron AGM Super Cycle battery " alt="Picture of Victron AGM Super Cycle battery "/>
+					<figure id="ContFig3">
+								<img id="ConPic3" src="img/VictronCyclebattery.png" title="Victron AGM Super Cycle battery " alt="Picture of Victron AGM Super Cycle battery "/>
 								<footer>
 									<small>&copy victron energy</small>
 								</footer>
 							</figure>
 				</aside>
+				
+				<footer id="ConFooter1">&copy2020 Zico Bakkum, 666987 </footer>
+						
+						<footer id="ConFooter2">We use cookies to improve our website!</footer>
 
 			</body>
 			</html>
