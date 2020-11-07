@@ -221,6 +221,10 @@
 		background-color : #BEFFFA
 	}
 	
+	#EuPic1, #EuPic2, #EuPic3 {
+		width : 100% 
+	}
+	
 	#EuFooter1 {
 		padding-top : 60px;
 	}
@@ -237,6 +241,43 @@
         background-color: #FA0;
         opacity: 0.5;
     } 
+	
+	#ConPic1, #ConPic2, #ConPic3 {
+		width : 100%;
+		height : auto;
+	}
+	
+	#ConField {
+		display : grid;
+	}
+	
+	#Submit {
+		margin-top : 15px;
+	}
+	
+	/* einde eusolar */
+	
+	#ConLogo {
+		display : none;
+	}
+	
+	#ConFooter1 {
+		padding-top : 60px;
+	}
+	
+	#ConFooter2{
+        position: fixed;
+        bottom: -14px;
+        right: 0;
+        width: 50%;
+        height: 10%;
+        padding-left: 5px;
+        z-index: 9999;
+        color: #fff;
+        background-color: #FA0;
+        opacity: 0.5;
+    } 
+	
 }
 	
 /*tablet*/
@@ -452,7 +493,68 @@
         background-color: #FA0;
         opacity: 0.5;
     } 
+	/* einde howsolarworks */
 	
+	#EuLogo {
+		width: 25%;
+		height : 25%;
+	}
+	
+	.TH2011, .TH2012, .TH2013 {
+		display : none;
+	}
+	
+	.TH2011, .TH2013, .TH2015, .TH2017 {
+		background-color : #DDDDDD
+	}
+	
+	.TH2012, .TH2014, .TH2016, .TH2018 {
+		
+	}
+	
+	.Hcolor {
+		background-color : #BEFFFA
+	}
+	
+	#EuAside {
+		display : grid;
+		grid-template-columns: 50%;
+	}
+	
+	#EuFig2{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	#EuFig3{
+		grid-column-start: 2;
+		grid-column-end: 3;
+	}
+	
+	#EuPic2, #EuPic3 {
+		width : 100%
+	}
+	
+	#EuFig1 {
+		display : none;
+	}
+	
+	#EuFooter1 {
+		padding-top : 60px;
+	}
+	
+	#EuFooter2{
+        position: fixed;
+        bottom: -14px;
+        right: 0;
+        width: 50%;
+        height: 10%;
+        padding-left: 5px;
+        z-index: 9999;
+        color: #fff;
+        background-color: #FA0;
+        opacity: 0.5;
+    } 
 }
 /*desktop*/
 @media screen and (min-width: 1280px) {
@@ -694,4 +796,78 @@
         background-color: #FA0;
         opacity: 0.5;
     } 
+	/* einde howsolarworks */
+	
+	#EuLogo {
+		width : 20%;
+		height : 20%;
+	}
+	
+	.TH2011 {
+		display : none;
+	}
+	
+	.TH2011, .TH2013, .TH2015, .TH2017 {
+		background-color : #DDDDDD
+	}
+	
+	.TH2012, .TH2014, .TH2016, .TH2018 {
+		
+	}
+	
+	.Hcolor {
+		background-color : #BEFFFA
+	}
+	
+	#EuAside {
+		display : grid;
+	}
+	
+	#EuFig1{
+		
+	}
+	
+	#EuFig2{
+	}
+
+	#EuFig3{
+	}
+	
+	#EuPic1, #EuPic2, #EuPic3 {
+		width : 70%
+	}
+	
+	#EuSec {
+		display : grid;
+		grid-template-columns : 50%;
+		grid-gap : 50px;
+	}
+	
+	.tableizer-table {
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+	#EuAside {
+		grid-column-start: 2;
+		grid-column-end: 3;
+	}
+	
+	#EuFooter1 {
+		padding-top : 60px;
+		border-top : 1px solid;
+	}
+	
+	#EuFooter2{
+        position: fixed;
+        bottom: -14px;
+        right: 0;
+        width: 50%;
+        height: 10%;
+        padding-left: 5px;
+        z-index: 9999;
+        color: #fff;
+        background-color: #FA0;
+        opacity: 0.5;
+    }
 }
