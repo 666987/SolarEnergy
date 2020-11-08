@@ -26,7 +26,7 @@ li {
 fieldset {
 	border-color : #E52525; 
 	border-style : double;
-	border-width : 2px;
+	border-width : 5px;
 }
 
 /*mobile*/
@@ -938,7 +938,7 @@ fieldset {
 		width: 100%;
 	}
 	
-	#Art4 {
+	#Art1 {
 		grid-row-start : 3;
 		grid-row-end : 9;
 		grid-column-start: 2;
@@ -959,7 +959,7 @@ fieldset {
 		grid-column-end: 4;
 	}
 	
-	#Art1 {
+	#Art4 {
 		grid-row-start: 6;
 		grid-row-end: 10;
 		grid-column-start: 3;
@@ -1080,8 +1080,8 @@ fieldset {
 	
 	#EuSec {
 		display : grid;
-		grid-template-columns : 50%;
-		grid-gap : 50px;
+		grid-template-columns : 70%;
+		padding-right : 50px;
 		border-bottom : 1px solid;
 	}
 	
