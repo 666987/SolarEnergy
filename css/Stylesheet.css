@@ -29,6 +29,10 @@ fieldset {
 	border-width : 5px;
 }
 
+th {
+	background-color : #EFEDDE;
+}
+
 /*mobile*/
 @media screen and (max-width: 480px) {
 	#FlexBody {
