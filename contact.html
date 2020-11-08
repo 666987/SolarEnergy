@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-	<html lang="nl">
+	<html lang="en">
 		<head>
 			<meta charset="utf-8"/>
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<meta name="keywords" content="Solar, energy, Harrems Zonnepanelen, Zonnepanelen"/>
 			<meta name="discription" content="Een website over zonne energie"/>
 			<meta name="author" content="Zico Bakkum"/>
-			<link rel="stylesheet" type="text/css" href="css/SolarEnergyStyle.css"/>
+			<link rel="stylesheet" type="text/css" href="css/Stylesheet.css"/>
 			<title>I want solar energy </title>
 			
 		</head>
 		<body>
 		<header>
-		<img id="ConLogo" src="img/LogoSolar.png" title="Logo" alt=""Hier hoort een logo te komen!" />
+		<img id="ConLogo" src="img/LogoSolar.png" title="Logo" alt="A Logo should pop up here!" />
 			<h1 id="H1Head">Harrems solar energy </h1>
-					<h2 id="H2Head">Make the world a better place! </h2>
+					<h2 id="H2Head"><em>Make the world a better place!</em> </h2>
 		</header>
 			<nav id="ConNav">
 			<nav id="EuSolar">
@@ -27,29 +27,34 @@
 					</label>
 					<input type="checkbox" id="hamburger"/>
 					
-				<ul>
-					<li>
-						<a href="index.html">Home! </a>
+				<ul id="ConUL">
+					<li id="ConLI1">
+						<a href="index.html">Home.</a>
 					</li>
-					<li>
-						<a href="howsolarworks.html">How solar energy works! </a>
+					<li id="ConL2">
+						<a href="howsolarworks.html">How solar energy works.</a>
 					</li>
-					<li>
-						<a href="eusolar.html">Solar energy in europe! </a>
+					<li id="ConLI3">
+						<a href="eusolar.html">Solar energy in europe.</a>
 					</li>
 				</ul>
 			</nav>
-			<section>
+			<section id="ConSecAll">
+			<section id="ConSecField">
+				<h5>Contact information:</h5>
+				<p>Name: Zico Bakkum,</p>
+				<p>Studentnummer: 666987,</p>
+				<p id="ConEmail">Email: 666987@student.inholland.nl</p>
 				<form action="http://i-want-solar-energy.com/testform.php">
 				<fieldset id="ConField">
 					<legend>Personal info:</legend>
-					<label for="fn" placeholder="true">First Name:</label>
+					<label class="ConLabel" for="fn" placeholder="true">First Name:</label>
 					<input type="text" id="fn" name="firstname" placeholder="Enter your name..." required>
 					
-					<label for="em">Email:</label>
+					<label class="ConLabel" for="em">Email:</label>
 					<input type="text" id="em" name="email" placeholder="Enter your email..." required>
 					
-					<label for="ms">Message:</label>
+					<label  class="ConLabel" for="ms">Message:</label>
 					<input type="text" id="ms" name="message" placeholder="Enter your message..." required>
 					
 					<input id="Submit" type="submit" value="Submit">
@@ -57,30 +62,32 @@
 				
 			</section>
 			
-			<aside>
+			<aside id="ConAside">
+			<h1>Products:</h1>
 					<figure id="ContFig1">
 								<img id="ConPic1" src="img/SmartSolar.png" title="SmartSolarMPPT100-50" alt="Picture of SmartSolar MPPT 150-505 charge controller"/>
 								<footer>
-									<small>&copy victron energy</small>
+									&copy; victron energy
 								</footer>
 							</figure>
 							
 					<figure id="ContFig2">
 								<img id="ConPic2" src="img/Steca_solarix.jpg" title="STECA SOLARIX" alt="Picture of STECA SOLARIX 2525, 4040"/>
 								<footer>
-									<small>&copy Steca</small>
+									&copy; Steca
 								</footer>
 							</figure>
 							
 					<figure id="ContFig3">
 								<img id="ConPic3" src="img/VictronCyclebattery.png" title="Victron AGM Super Cycle battery " alt="Picture of Victron AGM Super Cycle battery "/>
 								<footer>
-									<small>&copy victron energy</small>
+									&copy; victron energy
 								</footer>
 							</figure>
 				</aside>
+				</section>
 				
-				<footer id="ConFooter1">&copy2020 Zico Bakkum, 666987 </footer>
+				<footer id="ConFooter1">&copy;2020 Zico Bakkum, 666987 </footer>
 						
 						<footer id="ConFooter2">We use cookies to improve our website!</footer>
 
