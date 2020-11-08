@@ -1,0 +1,4 @@
+Naam: Zico Bakkum
+Studentnummer: 666987
+Klas: Inf1c
+github link: https://github.com/666987/SolarEnergy
