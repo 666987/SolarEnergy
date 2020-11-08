@@ -62,7 +62,7 @@ fieldset {
         display: none;
     }
 
-    #burgericon{
+    .burgericon{
         position: absolute;
         top: 35px;
         right: 45px;
@@ -362,7 +362,7 @@ fieldset {
 		padding-bottom : 5px;
 	}
 	
-	#burgericon, #hamburger {
+	.burgericon, #hamburger {
 		display : none;
 	}
 	
@@ -383,7 +383,6 @@ fieldset {
 		width : 20%;
 		height : auto;
 		display : flex;
-		align-items: left;
 		justify-content: left;	
 		clear : both;
 		flex-direction: column;
@@ -452,7 +451,6 @@ fieldset {
 	#PFlex {
 		display : flex;
 		width : 75%;
-		align-items: right;
 		justify-content : right;
 		text-align: left;
 		float : right;
@@ -809,7 +807,7 @@ fieldset {
 		padding-bottom : 5px;
 	}
 	
-	#burgericon, #hamburger {
+	.burgericon, #hamburger {
 		display : none;
 	}
 	
